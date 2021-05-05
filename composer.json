@@ -1,0 +1,32 @@
+{
+    "name": "javck/totemzh",
+    "description": "studio/totem package localized to zh_TW",
+    "type": "library",
+    "keywords": ["laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "javck",
+            "email": "javck.zack@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {  
+        "classmap": [
+            "src/lib"
+        ],
+        "psr-4": {
+            "Javck\\totemzh\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Javck\\Totemzh\\TotemzhServiceProvider"
+            ]
+        }
+    }
+}
