@@ -16,7 +16,7 @@
     },
     "autoload": {  
         "psr-4": {
-            "Javck\\totemzh\\": "src/"
+            "Javck\\Totemzh\\": "src/"
         }
     },
     "extra": {
@@ -26,4 +26,5 @@
             ]
         }
     }
+    
 }

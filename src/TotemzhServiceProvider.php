@@ -31,6 +31,6 @@ class TotemzhServiceProvider extends ServiceProvider
 
     public function provides()
     {
-        return ['totemzh'];
+        return ['Totemzh'];
     }
 }
