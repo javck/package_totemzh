@@ -25,7 +25,7 @@ class TotemzhServiceProvider extends ServiceProvider
         $this->publishes([
             __DIR__ . '/../views' => base_path('resources/views/vendor/totem'),
             __DIR__ . '/../lang' => base_path('resources/lang/vendor/totem'),
-            __DIR__ . '/../config' => base_path('resources/lang/vendor/totem'),
+            __DIR__ . '/../config' => base_path('config'),
         ]);
     }
 
