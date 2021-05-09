@@ -15,9 +15,6 @@
         "php": ">=7.0.0"
     },
     "autoload": {  
-        "classmap": [
-            "src/lib"
-        ],
         "psr-4": {
             "Javck\\totemzh\\": "src/"
         }
