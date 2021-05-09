@@ -1,7 +1,7 @@
 <aside class="uk-width-1-6@l uk-margin-bottom">
     <div class="uk-text-center">
-        <img src="{{asset('vendor/totem/img/mask.svg')}}" class="uk-svg">
-        <div class="uk-text-large">Pandalab</div>
+        <img src="{{asset('vendor/totem/img/logo_panda.png')}}" class="uk-svg">
+        <div class="uk-text-large">哥布林挨踢頻道</div>
     </div>
     <hr>
     <ul class="uk-nav uk-nav-default">
